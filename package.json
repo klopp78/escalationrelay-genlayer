@@ -1,0 +1,6 @@
+{
+  "name": "escalationrelay-genlayer",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node scripts/check-contract.mjs" }
+}
