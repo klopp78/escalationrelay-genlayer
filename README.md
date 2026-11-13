@@ -11,6 +11,13 @@ EscalationRelay is a reusable GenLayer Intelligent Contract for AI agents that m
 
 The contract records source identities and snapshot hashes, including validator-comparable evidence commitments. It treats rendered content as data, not instructions. It does not make a local model decision.
 
+## Deployment
+
+The submitted source is deployed to GenLayer Studio at
+[`0xC55940bcB6116cb68Ff952E3682397fcb934F4eb`](https://explorer-studio.genlayer.com/address/0xC55940bcB6116cb68Ff952E3682397fcb934F4eb).
+The deployment reached consensus and is accepted. The explorer exposes the complete read and write lifecycle:
+`open_escalation`, `resolve_handoff`, `consume_clearance`, and `expire_handoff`.
+
 ## Checks
 
 Run `node scripts/check-contract.mjs` to verify that the submitted source includes consensus assessment, SHA-256 commitments, reviewer/agent authorization, one-use consumption, and safe timeout recovery.
